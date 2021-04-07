@@ -1,6 +1,10 @@
 #!/bin/bash
 
-FILE=$1
+[[ -z $1 ]] && {
+  echo "0.0.0" > VERSION
+  FILE=VERSION
+  echo "Usage: ./version-hook.sh VERSION"
+} || FILE=$1
 
 VER=$(cat $FILE)
 
