@@ -6,6 +6,12 @@
 - и так же с `X`, когда `Y` станет больше `9`
 - `X` не ограничивается деватью и растет постоянно
 
+## Пример запуска
+
+```
+./version-hook.sh VERSION
+```
+
 # Script hook that increments the version file
 
 - accepts the name of the file with the application version as input
@@ -13,6 +19,12 @@
 - the hook increases the number `Z` by` one` until it becomes more than `9`, then it sets` Z` to `0`, and the number` Y` increases by `one`
 - and so with `X` when` Y` becomes greater than `9`
 - `X` is not limited to nine and grows constantly
+
+## Example execute
+
+```
+./version-hook.sh VERSION
+```
 
 
 ## Автор \ Author
