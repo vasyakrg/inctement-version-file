@@ -6,11 +6,19 @@
 - и так же с `X`, когда `Y` станет больше `9`
 - `X` не ограничивается деватью и растет постоянно
 
+# Script hook that increments the version file
 
-## Автор
+- accepts the name of the file with the application version as input
+- version must be in the format `X.Y.Z,` where `X` - any number from` 0` to `infinity`,` Y` and `Z` - numbers from` 0` to `9` inclusive
+- the hook increases the number `Z` by` one` until it becomes more than `9`, then it sets` Z` to `0`, and the number` Y` increases by `one`
+- and so with `X` when` Y` becomes greater than `9`
+- `X` is not limited to nine and grows constantly
+
+
+## Автор \ Author
 
 - **Vassiliy Yegorov** [vasyakrg](https://github.com/vasyakrg)
 - [youtube](https://youtube.com/realmanual)
-- [сайт](https://vk.com/realmanual)
-- [канал в телеге](https://t.me/realmanual)
-- [чат в телеге для вопросов](https://t.me/realmanual_group)
+- [site](https://vk.com/realmanual)
+- [telegram](https://t.me/realmanual)
+- [any qiestions for my](https://t.me/realmanual_group)
