@@ -15,9 +15,9 @@
 # Script hook that increments the version file
 
 - accepts the name of the file with the application version as input
-- version must be in the format `X.Y.Z,` where `X` - any number from` 0` to `infinity`,` Y` and `Z` - numbers from` 0` to `9` inclusive
-- the hook increases the number `Z` by` one` until it becomes more than `9`, then it sets` Z` to `0`, and the number` Y` increases by `one`
-- and so with `X` when` Y` becomes greater than `9`
+- version must be in the format `X.Y.Z,` where `X` - any number from `0` to `infinity`,`Y` and `Z` - numbers from `0` to `9` inclusive
+- the hook increases the number `Z` by `one` until it becomes more than `9`, then it sets `Z` to `0`, and the number `Y` increases by `one`
+- and so with `X` when `Y` becomes greater than `9`
 - `X` is not limited to nine and grows constantly
 
 ## Example execute
